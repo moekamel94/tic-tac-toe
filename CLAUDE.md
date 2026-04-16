@@ -33,10 +33,21 @@ Everything lives in `tictactoe.html` as one self-contained file with three inlin
 
 ## Git Workflow
 
-All changes must be committed with clear messages and pushed to `origin/master` on GitHub (`moekamel94/tic-tac-toe`). Commit after every meaningful change.
+**After every meaningful change, commit and push immediately.** Never leave working changes uncommitted. This ensures the GitHub repo (`moekamel94/tic-tac-toe`) always reflects the latest working state and any version can be recovered.
 
 ```bash
 git add <file>
 git commit -m "short imperative description"
 git push
 ```
+
+### Commit message rules
+- Use the imperative mood: "Add X", "Fix Y", "Remove Z"
+- One concise subject line (50 chars or less)
+- No trailing periods
+
+### When to commit
+- After adding a new feature or UI element
+- After fixing a bug
+- After any refactor, even small ones
+- After updating CLAUDE.md or project config
